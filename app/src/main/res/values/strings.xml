@@ -1,3 +1,34 @@
 <resources>
     <string name="app_name">Erasmus</string>
+    <string name="day1">Erlebnis 1</string>
+    <string name="activity1">Ankunft in Granada</string>
+    <string name="description1">Aufregung und Sonnenschein erwarten mich, als ich in Granada
+        ankomme. Der große Marktplatz strahlt vor Energie und Lebensfreude. Dieser Moment markiert
+        den Beginn eines unvergesslichen Erasmus-Semesters.</string>
+    <string name="day2">Erlebnis 2</string>
+    <string name="activity2">Unvergessliche Poolparty</string>
+    <string name="description2">Die Stadt Granada enttäuscht nicht in Sachen Partyleben, und ich habe
+        die Chance genutzt, auf meiner ersten großen Party viele neue Leute kennenzulernen. Unter
+        strahlend blauem Himmel und bei perfektem Wetter war die Stimmung einfach großartig. Hier
+        habe ich auch meine ersten engen Freunde für mein aufregendes Erasmus-Abenteuer
+        getroffen.</string>
+    <string name="day3">Erlebnis 3</string>
+    <string name="activity3">Caminito del Rey</string>
+    <string name="description3">Ein unvergesslicher Tag auf dem Caminito del Rey-Wanderweg in
+        Granada mit Charles, Eva und Ruslan. Wir wagten uns über Hängebrücken, die in
+        schwindelerregender Höhe über 300 Meter tiefe Abgründeführten. Diese atemberaubende
+        Aussicht und das gemeinsame Abenteuer haben unsereFreundschaft gestärkt und uns
+        unvergessliche Erlebnisse beschert.</string>
+    <string name="day4">Erlebnis 4</string>
+    <string name="activity4">Magischer Sonnenuntergang über Granada</string>
+    <string name="description4">Ein atemberaubender Augenblick, als die Sonne am San Miguel
+        unterging und Granada in goldenes Licht tauchte. Mit einem gekühlten Bier in der Hand
+        genossen wir eine bezaubernde Aussicht, die zu den schönsten Momenten meines Lebens zählt.
+        Diese Erinnerung wird für immer in meinem Herzen bleiben.</string>
+    <string name="day5">Erlebnis 5</string>
+    <string name="activity5">Magnificent Maru</string>
+    <string name="description5">Effortlessly glides in to save the day</string>
+    <string name="day6">Erlebnis 5</string>
+    <string name="activity6">Dynamic Yasmine</string>
+    <string name="description6">Ability to shift to any form and energize</string>
 </resources>
