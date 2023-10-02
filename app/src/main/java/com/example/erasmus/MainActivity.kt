@@ -105,7 +105,8 @@ fun ErasmusItem(activity: Activity, modifier: Modifier = Modifier) {
             )
             Text(
                 text = stringResource(activity.descriptionRes),
-                style = MaterialTheme.typography.bodyMedium
+                style = MaterialTheme.typography.bodyMedium,
+                modifier = Modifier.padding(dimensionResource(R.dimen.padding_small))
             )
         }
     }
