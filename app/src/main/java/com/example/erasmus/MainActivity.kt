@@ -3,7 +3,11 @@ package com.example.erasmus
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.animation.animateContentSize
+import androidx.compose.animation.core.Spring
+import androidx.compose.animation.core.spring
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -99,7 +103,14 @@ fun ErasmusItem(activity: Activity, modifier: Modifier = Modifier) {
         )
             .clip(MaterialTheme.shapes.medium)
     ) {
-        Column(modifier = Modifier) {
+        Column(modifier = Modifier
+            .animateContentSize(
+                animationSpec = spring(
+                    dampingRatio = Spring.DampingRatioLowBouncy,
+                    stiffness = Spring.StiffnessLow
+                )
+            )
+        ) {
             Text(
                 text = stringResource(activity.nameRes),
                 style = MaterialTheme.typography.displaySmall,
